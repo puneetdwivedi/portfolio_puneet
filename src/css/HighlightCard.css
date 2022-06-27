@@ -1,0 +1,87 @@
+.HighLightCard {
+  position: relative;
+  width: 270px;
+  height: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px #2d2b2b solid;
+  border-radius: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 1pc;
+  margin-bottom: 3%;
+}
+
+.HighLightCard h4 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  color: white;
+  margin: 0;
+  padding: 3%;
+  background-color: #30336b;
+}
+
+.HighLightCard button {
+  width: 35%;
+  height: 9%;
+  background-color: #e67e22;
+  position: absolute;
+  bottom: 6%;
+  border: none;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.HighLightCard button:hover {
+  background-color: white;
+}
+
+.HighLightCard button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.HighLightCard button:hover > a {
+  color: #e67e22;
+}
+
+.highlightcard__imgcontainer {
+  width: 100%;
+  height: 40%;
+}
+
+.highlightcard__imgcontainer img {
+  width: 100%;
+  height: 100%;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
+}
+
+.highlightcard_info {
+  padding: 3%;
+  padding-bottom: 1%;
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+}
+/*# sourceMappingURL=HighlightCard.css.map */

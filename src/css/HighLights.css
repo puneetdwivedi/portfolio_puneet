@@ -1,0 +1,41 @@
+.App__HighLights {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  background-color: #f7f7f7;
+  border-radius: 3pc;
+}
+
+.App__HighLights h1 {
+  text-align: center;
+  color: #30336b;
+}
+
+.highlight__container {
+  padding-top: 1%;
+  width: 86%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #f7f7f7;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px #f1f1f1;
+          box-shadow: 5px 5px #f1f1f1;
+}
+/*# sourceMappingURL=HighLights.css.map */

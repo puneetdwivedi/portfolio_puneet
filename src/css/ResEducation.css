@@ -1,0 +1,105 @@
+.ResEducation {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ResEducation__insitute {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ResEducation__insitute div {
+  font-family: 'Arimo', sans-serif;
+}
+
+.ResEducation__insitute h3 {
+  margin: 0;
+  padding: 0;
+  color: #e67e22;
+}
+
+@media (max-width: 950px) {
+  .ResEducation__insitute h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 875px) {
+  .ResEducation__insitute h3 {
+    font-size: 15px;
+  }
+}
+
+.ResEducation__insitute p {
+  font-weight: bold;
+  color: #30336b;
+}
+
+.ResEducation__insitute span {
+  background-color: #e67e22;
+  color: white;
+  display: inline-block;
+  width: 125px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
+}
+
+@media (max-width: 875px) {
+  .ResEducation__insitute span {
+    padding: 6px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 875px) {
+  .ResEducation__insitute span {
+    font-size: 14px;
+    width: 101px;
+  }
+}
+
+.ResEducation__insitute span:hover {
+  background-color: white;
+  color: #e67e22;
+  cursor: pointer;
+}
+
+@media (max-width: 525px) {
+  .ResEducation__insitute span {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+@media (max-width: 525px) {
+  .ResEducation__insitute {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+/*# sourceMappingURL=ResEducation.css.map */

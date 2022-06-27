@@ -1,0 +1,146 @@
+.App__Contactme {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #bdbdbd;
+  border-top-left-radius: 1pc;
+  border-top-right-radius: 1pc;
+}
+
+.App__Contactme h1 {
+  text-align: center;
+  color: #30336b;
+}
+
+.App__Contactme .Contactme_container {
+  width: 95%;
+  height: 500px;
+  background-color: #f7f7f7;
+  border-radius: 3pc;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 760px) {
+  .App__Contactme .Contactme_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+}
+
+.App__Contactme .Contactme_container .contactme_left {
+  font-size: 18px;
+  width: 30%;
+}
+
+.App__Contactme .Contactme_container .contactme_left .contactleft_contacticons {
+  margin-top: 15px;
+  background-color: #30336b;
+  padding: 2%;
+  border-radius: 1pc;
+}
+
+.App__Contactme .Contactme_container .contactme_left .contactleft_contacticons a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.App__Contactme .Contactme_container .contactme_left .contactleft_contacticons a:hover {
+  color: #e67e22;
+}
+
+.App__Contactme .Contactme_container .contactme_left .contactleft_contacticons a .contactlefticons {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+@media (max-width: 965px) {
+  .App__Contactme .Contactme_container .contactme_left {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 812px) {
+  .App__Contactme .Contactme_container .contactme_left {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 760px) {
+  .App__Contactme .Contactme_container .contactme_left {
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .App__Contactme .Contactme_container .contactme_left {
+    font-size: 16px;
+    width: 65%;
+  }
+}
+
+.App__Contactme .Contactme_container .contactme_right {
+  width: 50%;
+  height: 90%;
+  text-align: center;
+  background-color: #bdbdbd;
+  border-radius: 15px;
+}
+
+.App__Contactme .Contactme_container .contactme_right h3 {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 965px) {
+  .App__Contactme .Contactme_container .contactme_right {
+    width: 60%;
+  }
+}
+
+@media (max-width: 760px) {
+  .App__Contactme .Contactme_container .contactme_right {
+    width: 84%;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .App__Contactme .Contactme_container .contactme_right {
+    width: 96%;
+  }
+}
+/*# sourceMappingURL=Contactme.css.map */

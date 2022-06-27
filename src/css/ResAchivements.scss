@@ -1,0 +1,21 @@
+@import "./variable";
+
+.ResAchivements{
+    width: 100%;
+    height: 100%;
+}
+
+.ResAchivements__achieve{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: $hover_font_color;
+
+    & span {
+        color: $home_bg_color
+    }
+    // & h3{
+    //     margin: 0;
+    //     padding: 0;
+    // }
+}

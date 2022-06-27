@@ -1,0 +1,265 @@
+@import "./variable";
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.Profile{
+    padding: 1rem 0;
+    // min-height: 100vh;
+    // padding-bottom: 0;
+    width: 100%;
+    background-color: $home_bg_color;
+    position: relative;
+
+    & .active{
+        color: $hover_font_color
+    }
+}
+
+
+.Profile__navbar{
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & h1{
+        margin: 0;
+        color: $font_color;
+        cursor: pointer;
+        @media(max-width: 765px){
+            margin: 0 auto;
+        }
+    }
+    // position: fixed;
+
+    @media(max-width: 935px){
+        padding: 0 1rem;
+    }
+} 
+
+.Profile__menus{
+    display: flex;
+    & li{
+        font-size: 1.1rem;
+        list-style-type: none;
+        margin-left: 1.5rem;
+        font-weight: 500;
+        color: $font_color;
+        transition: ease-in-out all 0.3s;
+        @media(max-width: 835px){
+            // padding: 0 1rem;
+            margin-left: 1.1rem;
+        }
+    }
+    & li:hover{
+        cursor: pointer;
+        color: $hover_font_color;
+    }
+    
+    @media(max-width: 765px){
+        display: none;
+    }
+}
+
+
+.Profile__home{
+    // border: 1px black solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4rem;
+    height: max-content;
+    margin-bottom: 5rem;
+    // height: 20rem;
+
+    @media(max-width:765px){
+        flex-direction: column-reverse;
+    }
+}
+
+.Profile__homeleft{
+    // border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h2{
+        margin: 0;
+    }
+}
+.Profile__socialicon{
+    color: $font_color !important;
+
+    .socialicon{
+        margin: 0.4rem 0.5rem;
+        cursor: pointer;
+        transition: all ease-in-out 0.5s;
+        :hover{
+            color: $hover_font_color ;
+        }
+    }
+    & a{
+        color: $font_color !important;
+    }
+    
+}
+
+.Profile__name{
+    color: $font_color;
+    font-family: 'Arimo', sans-serif;
+    margin: 1rem auto;
+
+    & span{
+        color: $hover_font_color;
+    }
+}
+
+.Profile__animatedtext{
+    // border: 1px black solid;
+    color: $font_color !important;
+    font-size: 2rem !important;
+    margin: 0;
+    margin-bottom: 1.2rem;
+    width: 400px;
+    text-align: center;
+
+    .Profile__typical{
+        margin: 0 auto;
+        margin-block: 0 !important;
+    }
+    @media(max-width :475px){
+        font-size: 1.8rem !important;
+    }
+}
+
+.Profile__quote{
+    color: $font_color;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-family: 'Arimo', sans-serif;
+    & p{
+        margin: 0.5rem;
+    }
+}
+.Profile_buttons{
+    margin-top: 2rem;
+    // border: 1px black solid;
+
+    & .contactme_button{
+        background-color: transparent;
+        padding: 0.8rem;
+        outline: none;
+        color: $font_color;
+        border-style: none;
+        border: 2px white solid;
+        border-radius: 30px;
+        margin-right: 5rem;
+        transition: all ease-in-out 0.4s;
+        font-family: 'Arimo', sans-serif;
+
+        & :active{
+            border-style: none;
+        }
+        &:hover{
+            color: $home_bg_color;
+            background-color: $font_color;
+            cursor: pointer;
+        }
+
+    }
+    & .getresume_button{
+        padding: 0.8rem;
+        outline: none;
+        color: $font_color;
+        border-style: none;
+        border-radius: 30px;
+        background-color: $hover_font_color;
+        transition: all ease-in-out 0.4s;
+
+
+        & :active{
+            border-style: none;
+        }
+        &:hover{
+            background-color: $font_color;
+            cursor: pointer;
+        }
+        &:hover > a{
+            color: $hover_font_color;
+        }
+        a{
+            text-decoration: none;
+            color: $font_color;
+            font-weight: 500;
+            transition: all ease-in-out 0.4s;
+            font-family: 'Arimo', sans-serif;
+
+        }
+    }
+    
+}
+
+.Profile__homeright{
+    // border: 1px black solid;
+    width: 350px;
+    height: 350px;
+    background: url("../images/no_bg_my_pic.png");
+    background-color: $porfilepic_bg_color;
+    background-size: cover;
+    border-radius: 50%;
+
+    @media(max-width: 900px){
+        width: 300px;
+        height: 300px;
+    }
+    @media(max-width:765px){
+        width: 450px;
+        height: 450px;
+        margin-bottom: 40px;
+    }
+   
+     @media(max-width: 500px){
+        width: 375px;
+        height: 375px;
+    }
+    @media(max-width: 410px){
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+// wavy motion at bottom
+
+.custom-shape-divider-bottom-1645486484 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+
+    @media(max-width: 1000px){
+        // bottom: -5px;
+    }
+}
+
+.custom-shape-divider-bottom-1645486484 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+
+    @media(max-width: 750px){
+        height: 86px;
+    }
+    @media (max-width: 550px) {
+        height: 56px;
+    }
+}
+
+.custom-shape-divider-bottom-1645486484 .shape-fill {
+    fill: $porfilepic_bg_color;
+}
+
+
+

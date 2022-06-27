@@ -1,0 +1,32 @@
+@import "./variable";
+
+.App__HighLights{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: $section_bg_color;
+    border-radius: 3pc;
+
+    & h1{
+        text-align: center;
+        color: $home_bg_color;
+
+    }
+}
+
+.highlight__container{
+    padding-top: 1%;
+    width: 86%;
+    display: flex;
+    flex-wrap: wrap;
+    // gap: 5%;
+    align-items: flex-start;
+    // border: 1px black solid;
+    background-color: $section_bg_color;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 5px 5px #f1f1f1;
+    // padding: 0 auto;
+}

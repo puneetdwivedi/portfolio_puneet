@@ -1,0 +1,74 @@
+@import "./variable";
+
+.ResEducation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ResEducation__insitute{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    & div{
+        
+        font-family: 'Arimo', sans-serif;
+    }
+    & h3{
+        margin: 0;
+        padding: 0;
+        color: $hover_font_color;
+        
+        @media(max-width: 950px){
+            font-size: 18px;
+        }
+        @media(max-width: 875px){
+            font-size: 15px;
+        }
+    }
+
+    & p{
+        font-weight: bold;
+        color: $home_bg_color;
+    }
+
+    & span{
+        background-color: $hover_font_color;
+        color: $font_color;
+        display: inline-block;
+        width: 125px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        transition: all ease-in-out 0.6s;
+
+        @media(max-width: 875px){
+            padding: 6px;
+            width: 110px;
+        }
+        @media(max-width: 875px){
+           font-size: 14px;
+            width: 101px;
+        }
+        
+        
+        &:hover{
+            background-color: $font_color;
+            color: $hover_font_color;
+            cursor:  pointer;
+        }
+
+        @media(max-width: 525px){
+            align-self: flex-end;
+        }
+    }
+
+    @media(max-width: 525px){
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

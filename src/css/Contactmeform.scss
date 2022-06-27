@@ -1,0 +1,70 @@
+@import "./variable";
+
+.Contactme__contactmeform{
+    
+    & form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    & input, textarea{
+        box-sizing: border-box;
+        width: 60%;
+        margin-bottom: 20px;
+        height: 35px;
+        padding: 4px;
+        font-size: 15px;
+        background-color: #f7f7f7;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-weight: 400;
+        // border-bottom: 2px black solid;
+        @media (max-width: 500px){
+            width: 70%;
+            height: 33px;
+        }
+    }
+    & textarea{
+        height: 100px;
+        resize: none;
+    }
+    & input:focus-visible, textarea:focus-visible{
+        outline: none;
+    }
+
+    & label{
+        align-self: flex-start;
+        justify-self: start;
+        margin-left: 20%;
+        font-size: 18px;
+        color: $home_bg_color;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+    & input:last-child{
+        width: 20%;
+        background-color: $hover_font_color;
+        margin-top: 2%;
+        font-size: 16px;
+        cursor: pointer;
+        color: $font_color;
+        transition: all ease-in-out 0.4s;
+        border-radius: 20px;
+
+        @media(max-width: 500px){
+            width: 30%;
+            margin-top: 3%;
+            font-size: 17px;
+        }
+        
+        &:hover{
+            background-color: $font_color;
+            color: $hover_font_color;
+        }
+    }
+    
+}

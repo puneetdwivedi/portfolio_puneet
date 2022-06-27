@@ -1,0 +1,45 @@
+@import "./variable";
+
+.Modaloncontactformsubmit{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color:#32312fb3;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    & .modalcontainer{
+        width: 38%;
+        height: 45vh;
+        background-color: #acacaf;
+        border-radius: 5px;
+        position: relative;
+
+        @media(max-width: 760px){
+            width: 80%;
+            height: 50vh;
+        }
+
+        & p{
+            font-size: 28px;
+            // color: ;
+            margin-top: 25%;
+        }
+        & button{
+            background-color: #897b7b;
+            width: 8%;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            padding: 1%;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+
+}

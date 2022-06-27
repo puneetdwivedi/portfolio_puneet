@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,eAAe,CAAA;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,wBAAwB,CAAA;EACpB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,UAAU;EAC3B,WAAW,EAAE,MAAM;EACnB,KAAK,ECTU,OAAO;CDkBzB;;AAbD,AAMI,wBANoB,CAMlB,IAAI,CAAC;EACH,KAAK,ECXG,OAAO;CDYlB",
+    "sources": [
+        "ResAchivements.scss",
+        "_variable.scss"
+    ],
+    "names": [],
+    "file": "ResAchivements.css"
+}

@@ -1,0 +1,113 @@
+@import "./variable";
+
+.App__Contactme{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // margin-bottom: 100px;
+    background-color: #bdbdbd;
+    border-top-left-radius: 1pc;
+    border-top-right-radius: 1pc;
+
+
+    & h1{
+        text-align: center;
+        color: $home_bg_color;
+    }
+    .Contactme_container{
+        width: 95%;
+        height: 500px;
+        background-color: $section_bg_color;
+        border-radius: 3pc;
+        margin-bottom: 20px;
+        // border: 1px rgb(34, 29, 29) solid;
+        display: flex;
+        gap: 5%;
+        justify-content: space-around;
+        align-items: center;
+
+
+        @media (max-width: 760px){
+            flex-direction: column;
+            height: auto;
+            padding: 20px 0;
+        }
+
+
+        .contactme_left{
+            // border: 1px black solid;
+            font-size: 18px;
+            width:30%;
+            
+            .contactleft_contacticons{
+                margin-top: 15px;
+                background-color: $home_bg_color;
+                padding: 2%;
+                border-radius: 1pc;
+
+                & a{
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    color: $font_color;
+                    transition: all ease-in-out 0.3s;
+
+                    &:hover{
+                        color: $hover_font_color;
+                    }
+
+                    .contactlefticons{
+                        margin-right: 2%;
+                        margin-left: 2%;
+                    }
+                }
+            }
+
+            @media (max-width: 965px){
+                font-size: 16px;
+            }
+            @media (max-width: 812px){
+                font-size: 13px;
+            }
+            @media (max-width: 760px){
+                font-size: 18px;
+                width: 60%;
+            }
+            @media (max-width: 500px){
+                font-size: 16px;
+                width: 65%;
+            }
+
+        }
+
+        .contactme_right{
+            // border: 1px black solid;
+            width: 50%;
+            height: 90%;
+            text-align: center;
+            background-color: #bdbdbd;
+            border-radius: 15px;
+
+            & h3{
+                color: $font_color;
+                margin: 0;
+                padding: 0;
+            }
+            @media (max-width: 965px) {
+                width: 60%;
+            }
+            @media (max-width: 760px){
+                width: 84%;
+                margin-top: 5%;
+            }
+            @media (max-width: 500px){
+                width: 96%;
+               
+            }
+        }
+
+
+    }
+}
