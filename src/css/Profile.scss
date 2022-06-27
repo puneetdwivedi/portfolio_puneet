@@ -80,10 +80,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    // height: auto;
     & h2{
         margin: 0;
     }
+    @media(max-width: 760px){
+        width: 100%;
+    }
+
 }
 .Profile__socialicon{
     color: $font_color !important;
@@ -253,7 +257,7 @@
         height: 86px;
     }
     @media (max-width: 550px) {
-        height: 56px;
+        height: 40px;
     }
 }
 
