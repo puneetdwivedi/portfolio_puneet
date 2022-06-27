@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio_puneet/static/css/main.fa06b9a9.css",
+    "main.js": "/portfolio_puneet/static/js/main.4312ba48.js",
+    "static/media/about_me_pic_nobg.png": "/portfolio_puneet/static/media/about_me_pic_nobg.58baa2c32abebdd96c48.png",
+    "static/media/cf_pupil.png": "/portfolio_puneet/static/media/cf_pupil.97c3b678e5b80754605d.png",
+    "static/media/cc_4_star.png": "/portfolio_puneet/static/media/cc_4_star.c25d2f4387ea52d33c59.png",
+    "static/media/no_bg_my_pic.png": "/portfolio_puneet/static/media/no_bg_my_pic.fa6098cba8ac405a1a4e.png",
+    "static/media/kickstrt_roundb.png": "/portfolio_puneet/static/media/kickstrt_roundb.223003330533149842ed.png",
+    "index.html": "/portfolio_puneet/index.html",
+    "main.fa06b9a9.css.map": "/portfolio_puneet/static/css/main.fa06b9a9.css.map",
+    "main.4312ba48.js.map": "/portfolio_puneet/static/js/main.4312ba48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa06b9a9.css",
+    "static/js/main.4312ba48.js"
+  ]
+}
