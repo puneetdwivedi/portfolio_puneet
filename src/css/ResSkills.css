@@ -33,6 +33,14 @@
   }
 }
 
+@media (max-width: 550px) {
+  .ResSkills span {
+    width: 35%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
 .ResSkills div {
   width: 100%;
   display: -webkit-box;
@@ -46,5 +54,16 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+@media (max-width: 550px) {
+  .ResSkills div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=ResSkills.css.map */

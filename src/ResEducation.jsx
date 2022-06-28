@@ -30,7 +30,7 @@ function ResEducation(){
                 <div>
                     <h3>Adarsh Vidyalaya, RAIPUR</h3>
                     <p> 
-                        Class 12 <br/>
+                        Class 10 <br/>
                         Result : 81.2%
                     </p>
                          

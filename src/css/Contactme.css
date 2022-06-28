@@ -100,14 +100,21 @@
 @media (max-width: 760px) {
   .App__Contactme .Contactme_container .contactme_left {
     font-size: 18px;
-    width: 60%;
+    width: 50%;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .App__Contactme .Contactme_container .contactme_left {
-    font-size: 16px;
+    font-size: 17px;
     width: 65%;
+  }
+}
+
+@media (max-width: 385px) {
+  .App__Contactme .Contactme_container .contactme_left {
+    font-size: 15px;
+    width: 75%;
   }
 }
 

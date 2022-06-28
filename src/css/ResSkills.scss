@@ -7,6 +7,8 @@
     justify-content: center;
     align-items: center;
 
+    
+
     & span{
         display: block;
         width: 20%;
@@ -24,6 +26,11 @@
             width: 25%;
             font-size: 16px;
         }
+        @media(max-width:550px){
+            width: 35%;
+            font-size: 14px;
+            font-weight: 500;
+        }
     }
     & div{
         // border: 1px black solid;
@@ -33,6 +40,10 @@
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: flex-start;
+        @media(max-width: 550px){
+            justify-content: center;
+            align-items: center;
+        }
     }
 
 }
