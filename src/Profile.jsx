@@ -122,7 +122,7 @@ function Profile(){
                             </button>
                             </Link>
                        
-                        <button className="getresume_button"> <a href="https://drive.google.com/file/d/1jJSJYnadmD_bZNEUA30W0_FqQNUjcBSL/view?usp=sharing" download="Puneet_Dwivedi_resume.pdf" target="_blank">Get Resume</a></button>
+                        <button className="getresume_button"> <a href="https://drive.google.com/file/d/1-rDq-ERw4eVnvCHglky63PTuAJRLNgb6/view?usp=sharing" download="Puneet_Dwivedi_resume.pdf" target="_blank">Get Resume</a></button>
                     </div>
                 </div>
 
